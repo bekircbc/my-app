@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.content {
+  height: 800px;
+  width: 400px;
+  background-color: navy;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  margin-right: 1rem;
+}
+.link:hover {
+  color: red;
+}
+.menu {
+  display: flex;
+  max-width: 100%;
+  justify-content: flex-end;
+  height: 80px;
+  position: relative;
+}
+.links {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 80vw;
+  background-color: coral;
+  color: aliceblue;
+}
